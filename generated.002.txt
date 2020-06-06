@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>dummy title</title>
+</head>
+<body bgcolor="white">
+<a name="1">[1]</a> <a href="#1" id=1>O_K. So we're gonna try to finish by five so people who want to can go hear Nancy Chang's talk,</a>
+<a name="2">[2]</a> <a href="#2" id=2>And um we already talked with Andreas,</a>
+<a name="3">[3]</a> <a href="#3" id=3>some lines of code were already written today</a>
+<a name="4">[4]</a> <a href="#4" id=4>and almost tested</a>
+<a name="5">[5]</a> <a href="#5" id=5>say we have um again the recognizer</a>
+<a name="6">[6]</a> <a href="#6" id=6>to parser</a>
+<a name="7">[7]</a> <a href="#7" id=7>thing where we're working on and that should be no problem</a>
+<a name="8">[8]</a> <a href="#8" id=8>em we have talked this morning with the - with Tilman about the generator.</a>
+<a name="9">[9]</a> <a href="#9" id=9>two ways. Either we do a syllable concatenating</a>
+<a name="10">[10]</a> <a href="#10" id=10>grammar for the English generation which is sort of starting from scratch and</a>
+<a name="11">[11]</a> <a href="#11" id=11>um style that is implemented in the German system</a>
+<a name="12">[12]</a> <a href="#12" id=12>are then able not only to produce</a>
+<a name="13">[13]</a> <a href="#13" id=13>strings but also the syntactic parse</a>
+<a name="14">[14]</a> <a href="#14" id=14>the syntactic tree that is underneath in the syntactic structure</a>
+<a name="15">[15]</a> <a href="#15" id=15>That sounds good. Johno, are you gonna have some time t- to do that uh w- with these guys?</a>
+<a name="16">[16]</a> <a href="#16" id=16>the - the ultimate goal is that before</a>
+<a name="17">[17]</a> <a href="#17" id=17>they leave we - we can run through the entire system</a>
+<a name="18">[18]</a> <a href="#18" id=18>continue either all through tonight or tomorrow on whatever</a>
+<a name="19">[19]</a> <a href="#19" id=19>to get the er parser interface working.</a>
+<a name="20">[20]</a> <a href="#20" id=20>Sort of one  branch  is to get us caught up on what's going on.</a>
+<a name="21">[21]</a> <a href="#21" id=21>It probably will work better if we do it later in the week, after  we actually understand</a>
+<a name="22">[22]</a> <a href="#22" id=22>Um we're here through Sunday, so</a>
+<a name="23">[23]</a> <a href="#23" id=23>so anyt- we'll find a time later in the week to uh get together and talk about   your  understanding of what SmartKom plans are.</a>
+<a name="24">[24]</a> <a href="#24" id=24>facing to - to what we've sort of been doing here</a>
+<a name="25">[25]</a> <a href="#25" id=25>and so it's a - sort of a computer call system</a>
+<a name="26">[26]</a> <a href="#26" id=26>And it breaks halfway through the experiment and a human operator comes on.</a>
+<a name="27">[27]</a> <a href="#27" id=27>part of that is sort of trying to find out whether people change their linguistic verbal behavior when first thinking they speak to a machine and then to a human.</a>
+<a name="28">[28]</a> <a href="#28" id=28>we have first looked at a simple sentence that</a>
+<a name="29">[29]</a> <a href="#29" id=29>And um we've sort of gone through that once before in the Deep Mail project and we noticed that</a>
+<a name="30">[30]</a> <a href="#30" id=30>won't really give us is what the person actually wants.</a>
+<a name="31">[31]</a> <a href="#31" id=31>and so forth. There are all kinds of decisions that we have identified</a>
+<a name="32">[32]</a> <a href="#32" id=32>And we are constructing - and then we've identified more or less the</a>
+<a name="33">[33]</a> <a href="#33" id=33>extra-linguistic parameters that may f-</a>
+<a name="34">[34]</a> <a href="#34" id=34>play a role. Information related to the user and information related to the situation.</a>
+<a name="35">[35]</a> <a href="#35" id=35>And we also want to look closely on the linguistic information that</a>
+<a name="36">[36]</a> <a href="#36" id=36>these intentions in the data collection to see whether people actually</a>
+<a name="37">[37]</a> <a href="#37" id=37>suitable interfaces and a belief-net for</a>
+<a name="38">[38]</a> <a href="#38" id=38>a module that actually tries to guess what</a>
+<a name="39">[39]</a> <a href="#39" id=39>enrich or augment the M_-three-L_ structures with what it thought</a>
+<a name="40">[40]</a> <a href="#40" id=40>at least we   want to  offer  the</a>
+<a name="41">[41]</a> <a href="#41" id=41>um - so far I've thought of it as sort of adding it onto the modeler knowledge module. So this is one that already adds</a>
+<a name="42">[42]</a> <a href="#42" id=42>right now is only selecting among</a>
+<a name="43">[43]</a> <a href="#43" id=43>the um discourse modeler and so on.</a>
+<a name="44">[44]</a> <a href="#44" id=44>And then it would be available to action planning and - and others.</a>
+<a name="45">[45]</a> <a href="#45" id=45>Pa- pass over any  you know, questions or concerns that you have.</a>
+<a name="46">[46]</a> <a href="#46" id=46>uh standing here for the generation module and the other is - is</a>
+<a name="47">[47]</a> <a href="#47" id=47>But we believe that we have laid out the fundamental decisions in this little space and the things that influence them.</a>
+<a name="48">[48]</a> <a href="#48" id=48>So  one  of the decisions is what we call this A_V_E thing.</a>
+<a name="49">[49]</a> <a href="#49" id=49>So that's a- a discrete decision. There are only three possibilities and the uh - what one would like is for this uh, knowledge modeling module to</a>
+<a name="50">[50]</a> <a href="#50" id=50>uh th- the current design suggests that</a>
+<a name="51">[51]</a> <a href="#51" id=51>give it to the dialogue planner and say this, you know</a>
+<a name="52">[52]</a> <a href="#52" id=52>That would get expressed and then hopefully</a>
+<a name="53">[53]</a> <a href="#53" id=53>uh, We probably  won't  do this early on,</a>
+<a name="54">[54]</a> <a href="#54" id=54>some months from now we said "O_K we're now ready to</a>
+<a name="55">[55]</a> <a href="#55" id=55>in terms of querying about some of these decisions.</a>
+<a name="56">[56]</a> <a href="#56" id=56>my suggestion then is that you um</a>
+<a name="57">[57]</a> <a href="#57" id=57>look into the currently ongoing discussion about how the</a>
+<a name="58">[58]</a> <a href="#58" id=58>state-transition network</a>
+<a name="59">[59]</a> <a href="#59" id=59>of how dialogues would proceed.</a>
+<a name="60">[60]</a> <a href="#60" id=60>Well uh Marcus  Lerkult  is actually implementing that</a>
+<a name="61">[61]</a> <a href="#61" id=61>um we should early on make sure that they</a>
+<a name="62">[62]</a> <a href="#62" id=62>one  thing</a>
+<a name="63">[63]</a> <a href="#63" id=63>per- tells the person how to  go,  "First go  here,  first go  there</a>
+<a name="64">[64]</a> <a href="#64" id=64>of planning, and action, and a route planner and</a>
+<a name="65">[65]</a> <a href="#65" id=65>called a function that's modeled</a>
+<a name="66">[66]</a> <a href="#66" id=66>encapsulated from th- the dialogue system.</a>
+<a name="67">[67]</a> <a href="#67" id=67>mmm, a functioning model</a>
+<a name="68">[68]</a> <a href="#68" id=68>So I think the idea of having a, you know, transition diagram for the grammar of conversations is a good idea.</a>
+<a name="69">[69]</a> <a href="#69" id=69>you know th- the functional module that - that</a>
+<a name="70">[70]</a> <a href="#70" id=70>interacts with - with where the tourism g- stuff is going</a>
+<a name="71">[71]</a> <a href="#71" id=71>what's called the action plan and what's really the dialogue manager.</a>
+<a name="72">[72]</a> <a href="#72" id=72>very complex structured information in these slots and</a>
+<a name="73">[73]</a> <a href="#73" id=73>O_K. Could you - could you put a message into the right place to see if we can at least  ask  that question?</a>
+<a name="74">[74]</a> <a href="#74" id=74>because um again in- in Deep Map we have faced and implemented those problems once already maybe we can even shuffle some know how from there to</a>
+<a name="75">[75]</a> <a href="#75" id=75>the - the M_-three-L_ specification</a>
+<a name="76">[76]</a> <a href="#76" id=76>for the uh tourist path domain.</a>
+<a name="77">[77]</a> <a href="#77" id=77>uh together with the usual gang, um Petra and Jan</a>
+<a name="78">[78]</a> <a href="#78" id=78>Those are the - I think the - the true key issues is how does the whatever comes out of the language input pipeline look like and then what the action planner does with it -</a>
+<a name="79">[79]</a> <a href="#79" id=79>and how that is uh specified.</a>
+<a name="80">[80]</a> <a href="#80" id=80>the action planner and the language - uh the function model as sort of relevant.</a>
+<a name="81">[81]</a> <a href="#81" id=81>is going to be very much caught up with what</a>
+<a name="82">[82]</a> <a href="#82" id=82>been defined yet but there's gonna be some kind of feedback and input from</a>
+<a name="83">[83]</a> <a href="#83" id=83>uh the action planner</a>
+<a name="84">[84]</a> <a href="#84" id=84>into all the analysis modules,</a>
+<a name="85">[85]</a> <a href="#85" id=85>telling them what to expect and what the current state of the discourse is.</a>
+<a name="86">[86]</a> <a href="#86" id=86>Beyond what's currently being implemented which is just word lists.</a>
+<a name="87">[87]</a> <a href="#87" id=87>So anyway, Robert, that's why I was thinking that</a>
+<a name="88">[88]</a> <a href="#88" id=88>And even on - on a more basic level the - the action planner</a>
+<a name="89">[89]</a> <a href="#89" id=89>um - um the dialogue um will consist of ten possible states</a>
+<a name="90">[90]</a> <a href="#90" id=90>of getting the  terminology   changed so that the dialogue planner was called a "dialogue planner"?</a>
+<a name="91">[91]</a> <a href="#91" id=91>uh, the preparation phase of the project and not because somebody actually believes it ought to be action planner.</a>
+<a name="92">[92]</a> <a href="#92" id=92>does the planning of the uh</a>
+<a name="93">[93]</a> <a href="#93" id=93>routes and whatever we are doing for the tourist.</a>
+<a name="94">[94]</a> <a href="#94" id=94>I showed you once the interac- action between them among them in the deep map system so -</a>
+<a name="95">[95]</a> <a href="#95" id=95>the action planner should not be - or the dialogue manager in that case should not um w- have to worry about whether it's interfacing with um something that does route planning in this way or that way huh, it j-</a>
+<a name="96">[96]</a> <a href="#96" id=96>It's tricky because one could  well  imagine - I think it will turn  out  to be the case that</a>
+<a name="97">[97]</a> <a href="#97" id=97>knowledge modeler</a>
+<a name="98">[98]</a> <a href="#98" id=98>will fill in some parameters about what the person wants. One could  well  imagine</a>
+<a name="99">[99]</a> <a href="#99" id=99>that the next thing that's trying to fill out the  detailed</a>
+<a name="100">[100]</a> <a href="#100" id=100>uh,  route  planning, let's say, will  also  have questions that it would  like  to ask the user.</a>
+<a name="101">[101]</a> <a href="#101" id=101>And to run that back through</a>
+<a name="102">[102]</a> <a href="#102" id=102>uh. the  dialogue  manager and to the  output  module and back  around.</a>
+<a name="103">[103]</a> <a href="#103" id=103>an architecture where there really is a pers- a def- well-defined interface.</a>
+<a name="104">[104]</a> <a href="#104" id=104>I totally agree. But - but what it nee- but th- what the point is the- in that case the  dialogue  manager is sort of  event  driven.</a>
+<a name="105">[105]</a> <a href="#105" id=105>So the  dialogue  manager may think it's in a  dialogue   state</a>
+<a name="106">[106]</a> <a href="#106" id=106>one of these  planning  modules comes along and says "hey,  right  now we need</a>
+<a name="107">[107]</a> <a href="#107" id=107>So that  forces  the dialogue manager to change state.</a>
+<a name="108">[108]</a> <a href="#108" id=108>certain applications like tourist information or</a>
+<a name="109">[109]</a> <a href="#109" id=109>um the home scenario with uh controlling a V_C_R and so on.</a>
+<a name="110">[110]</a> <a href="#110" id=110>evade but, at- at least it makes sense to me that sooner or later uh -</a>
+<a name="111">[111]</a> <a href="#111" id=111>the function modeler and a self-description of the</a>
+<a name="112">[112]</a> <a href="#112" id=112>you can use the same language core, understanding core</a>
+<a name="113">[113]</a> <a href="#113" id=113>to interface with planner-A_, planner-B_, planner-C_ and so forth.</a>
+<a name="114">[114]</a> <a href="#114" id=114>how much syntactic analysis actually happens already in the parser.</a>
+<a name="115">[115]</a> <a href="#115" id=115>and whether one could interface to that</a>
+<a name="116">[116]</a> <a href="#116" id=116>Yeah, are there currently is uh no syntactic analysis</a>
+<a name="117">[117]</a> <a href="#117" id=117>S- so uh y- we - we looked at the e- current pattern matching thing.</a>
+<a name="118">[118]</a> <a href="#118" id=118>Uh, So what are - what are the  plans  roughly?</a>
+<a name="119">[119]</a> <a href="#119" id=119>and a segmentation occurs.</a>
+<a name="120">[120]</a> <a href="#120" id=120>So the idea is to uh - have a pa- y- y- a particular - Do you have a particular parser in mind? Is it</a>
+<a name="121">[121]</a> <a href="#121" id=121>but uh,  Miel  syntactic analysis with um finite state transducers.</a>
+<a name="122">[122]</a> <a href="#122" id=122>People at D_F_K_I have  written  a fair number of  parsers.</a>
+<a name="123">[123]</a> <a href="#123" id=123>uh have  written  various parsers at D_F_K_I. None of them</a>
+<a name="124">[124]</a> <a href="#124" id=124>Yeah, uh the problem is</a>
+<a name="125">[125]</a> <a href="#125" id=125>cuz of um speech recognition errors and</a>
+<a name="126">[126]</a> <a href="#126" id=126>So, um - So there was a  chunk  parser</a>
+<a name="127">[127]</a> <a href="#127" id=127>kind of  trying  to  fit  them  together  that</a>
+<a name="128">[128]</a> <a href="#128" id=128>embassy doing the parsing.</a>
+<a name="129">[129]</a> <a href="#129" id=129>is featuring a nice parser</a>
+<a name="130">[130]</a> <a href="#130" id=130>constraints,  that you want it to be  small  and  fast  and  so   forth,</a>
+<a name="131">[131]</a> <a href="#131" id=131>Purely   finite-state transducers are not so good for German since there's um</a>
+<a name="132">[132]</a> <a href="#132" id=132>The  word   order is - is uh not fixed</a>
+<a name="133">[133]</a> <a href="#133" id=133>um choice between uh this processing and that processing and my template matcher.</a>
+<a name="134">[134]</a> <a href="#134" id=134>the  stemming  information.</a>
+<a name="135">[135]</a> <a href="#135" id=135>We have knowledge bases from - from Verbmobil</a>
+<a name="136">[136]</a> <a href="#136" id=136>a retrieval from the lexicon which would</a>
+<a name="137">[137]</a> <a href="#137" id=137>give all the stemming information so it would be a full foreign lexicon.</a>
+<a name="138">[138]</a> <a href="#138" id=138>You know, w- if you're doing this for English as well as German</a>
+<a name="139">[139]</a> <a href="#139" id=139>to do list processing.</a>
+<a name="140">[140]</a> <a href="#140" id=140>about how  that  relates to what</a>
+<a name="141">[141]</a> <a href="#141" id=141>So we  talked  about the  fact  that</a>
+<a name="142">[142]</a> <a href="#142" id=142>a  certain  number of  decisions</a>
+<a name="143">[143]</a> <a href="#143" id=143>that will be then fed to the  function  module,</a>
+<a name="144">[144]</a> <a href="#144" id=144>uh,  route  planning.</a>
+<a name="145">[145]</a> <a href="#145" id=145>So there are these decisions. And then</a>
+<a name="146">[146]</a> <a href="#146" id=146>one   half  of this we talked about at  little  bit is</a>
+<a name="147">[147]</a> <a href="#147" id=147>That information, and also about the</a>
+<a name="148">[148]</a> <a href="#148" id=148>uh from  our  point of view this is also a research project</a>
+<a name="149">[149]</a> <a href="#149" id=149>is a  very   deep  semantics based on  cognitive   linguistics  and the notion that there are a  relatively   small  number</a>
+<a name="150">[150]</a> <a href="#150" id=150>of  primitive  conceptual  schemas  that  characterize  a lot of  activity.</a>
+<a name="151">[151]</a> <a href="#151" id=151>all sorts of  physical  situations</a>
+<a name="152">[152]</a> <a href="#152" id=152>are characterized in terms of  containers.  Going in and out</a>
+<a name="153">[153]</a> <a href="#153" id=153>But also, importantly for Lakoff and these guys is all sorts of  metaphorical</a>
+<a name="154">[154]</a> <a href="#154" id=154>is to map from the  discourse</a>
+<a name="155">[155]</a> <a href="#155" id=155>to the appropriate  decisions.</a>
+<a name="156">[156]</a> <a href="#156" id=156>what are called " image  schemas",</a>
+<a name="157">[157]</a> <a href="#157" id=157>path, goal,</a>
+<a name="158">[158]</a> <a href="#158" id=158>trajector, possibly obstacles.</a>
+<a name="159">[159]</a> <a href="#159" id=159>And that all  sorts  of things,  particularly  in the tourist domain, can be represented in  terms  of uh source, path and goal. So the idea would be could we build an  analyzer  that would take an  utterance</a>
+<a name="160">[160]</a> <a href="#160" id=160>The goal is this, the pers- the, uh traveler is that, uh the sor- w- where we are at now is is this, they've mentioned possible obstacles, et cetera."</a>
+<a name="161">[161]</a> <a href="#161" id=161>So th- the - and this is an - again attempt to get</a>
+<a name="162">[162]</a> <a href="#162" id=162>The  processing  of that,  both  on the  input  end,</a>
+<a name="163">[163]</a> <a href="#163" id=163>recognizing  that  certain   words  in a language  talk   about   containers  or  goals,  et  cetera,</a>
+<a name="164">[164]</a> <a href="#164" id=164>uh  make   decisions  about what  actions  to  take.</a>
+<a name="165">[165]</a> <a href="#165" id=165>Provides,  they  claim,</a>
+<a name="166">[166]</a> <a href="#166" id=166>notion of  deep  semantics.</a>
+<a name="167">[167]</a> <a href="#167" id=167>is going to be  not  about using this in applications, but about modeling how children might  learn</a>
+<a name="168">[168]</a> <a href="#168" id=168>worked with. Would it be highly ambiguous</a>
+<a name="169">[169]</a> <a href="#169" id=169>if and then there would be another module that takes that</a>
+<a name="170">[170]</a> <a href="#170" id=170>deep semantic construction and map it onto the current context to find out what the person</a>
+<a name="171">[171]</a> <a href="#171" id=171>really was talking about</a>
+<a name="172">[172]</a> <a href="#172" id=172>Uh, O_K, part of it comes from the  ontology.  The tower is  this  kind of object. Part of it comes from the  user  model.</a>
+<a name="173">[173]</a> <a href="#173" id=173>And the idea of the  belief-net  is it combines</a>
+<a name="174">[174]</a> <a href="#174" id=174>information  from the  dialogue  which comes across in this  general  way,</a>
+<a name="175">[175]</a> <a href="#175" id=175>along with  specific  information from the  ontology  about the kinds of objects involved and about the  situation</a>
+<a name="176">[176]</a> <a href="#176" id=176>Right. The - the  construction  grammar.</a>
+<a name="177">[177]</a> <a href="#177" id=177></a>
+</body>
+</html>
