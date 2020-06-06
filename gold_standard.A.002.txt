@@ -1,0 +1,1304 @@
+Hmm. Testing channel two.	0
+Two, two.	0
+Two.	0
+Two. Oh.	0
+Hello?	0
+Hmm?	0
+Yeah	0
+Thank You.	0
+O_K	0
+O_K.	0
+Well, so	0
+Ralf and Tilman are here.	0
+Great.	0
+Great.	0
+Made it safely.	0
+So the - what w- we	0
+h- have been doing i- they would like us all to read these digits.	0
+But we don't all read them but a couple people read them.	0
+O_K.	0
+Uh, wanna give them all with German accents today or - ?	0
+Sure.	0
+O_K.	0
+O_K and the way you do it is you just read the numbers	0
+not as	0
+uh each single, so just like I do it.	0
+Mm-hmm.	0
+O_K.	0
+First you read the transcript number.	0
+O_K, uh - What's -	0
+Turn.	0
+O_K. Let's be done with this.	0
+O_K.	0
+O_K. this is Ami, who - And this is Tilman and Ralf.	0
+Hi.   Uh-huh .	0
+Hi.	0
+Hi.	0
+Nice to meet  you.	0
+O_K. So we're gonna try to finish by five so people who want to can go hear Nancy Chang's talk,	0
+uh downstairs.	0
+Hmm.	0
+And you guys are g- giving talks on tomorrow and Wednesday lunch times, right? That's great.	0
+Yes.	0
+Mmm.	0
+O_K so, do y- do you know what we're gonna do?	0
+I thought	0
+two things uh we'll introduce ourselves and what we do.	0
+And um we already talked with Andreas,	0
+Thilo and	0
+David and	0
+some lines of code were already written today	0
+and almost tested	0
+and	1
+just gonna	0
+say we have um again the recognizer	1
+to parser	1
+thing where we're working on and that should be no problem	1
+and then	1
+that can be sort of developed uh	1
+as needed when we get - enter the tourism domain.	1
+em we have talked this morning with the - with Tilman about the generator.	0
+S-	0
+and um	0
+There one of our	0
+diligent workers has to sort of volunteer to	0
+look over Tilman's shoulder while he is changing the grammars to English	0
+Mm-hmm.	0
+because	0
+w- we have - we face	0
+two ways. Either we do a syllable concatenating	1
+um	0
+grammar for the English generation which is sort of starting from scratch and	1
+doing it the easy way,	1
+or we simply adopt the ah um	1
+more in-depth	1
+um style that is implemented in the German system	1
+and um	0
+are then able not only to produce	0
+strings but also the syntactic parse	0
+uh not parse not	0
+the syntactic tree that is underneath in the syntactic structure	0
+which is the way we decided we were gonna go because A_, it's easier in the beginning	0
+Mm-hmm.	0
+and um it does require some - some knowledge of - of those grammars and - and - and	0
+some ling- linguistic background.	0
+But um it shouldn't be a problem for anyone.	0
+O_K So	0
+That sounds good. Johno, are you gonna have some time t- to do that uh w- with these guys?	0
+Sure.	0
+cuz	0
+y- you're	0
+the grammar maven.	0
+O_K.	0
+I mean it makes sense, doesn't it?	0
+Yeah.	0
+Yeah	0
+Good.	0
+O_K. So, I think that's probably the -	0
+the right way to do that.	0
+And	0
+an- Yeah, so I - I actually wanna f-	0
+to find out about it too, but	0
+I may not have time to	0
+get in.	0
+the - the ultimate goal is that before	0
+they leave we - we can run through the entire system	0
+input through output on at least one or two sample	0
+things.	0
+And um	0
+and by virtue of doing that	0
+then in this case Johno will have acquired the knowledge of how to extend it.	0
+Ad infinitum.	0
+When needed, if needed, when wanted	0
+and so forth.	0
+O_K that sounds  great.	0
+And um	0
+also um	0
+Ralf has hooked up with David and you're gonna	0
+continue either all through tonight or tomorrow on whatever	0
+Mmm.	0
+to get the er parser interface working.	0
+They are thinning out and thickening out lattices and doing this kind of stuff to see what works best.	0
+Mmm, yep.	0
+Great.	0
+So, you guys enjoy your weekend?	0
+Yes, very much so.	0
+Yeah, very much	0
+O_K, before - before you got put to work?	0
+Yeah	0
+Great.	0
+O_K, so that's -	0
+Sort of one  branch  is to get us caught up on what's going on.	0
+Also of course it would be  really  nice to know what the  plans  are, in addition to what's sort of already in  code.	0
+Yes.	0
+and	0
+we can d- I dunno w- w- was there	0
+uh a time when we were set up to do that?	0
+It probably will work better if we do it later in the week, after  we actually understand	0
+Yes.	0
+Hmm.	0
+Yeah.	0
+uh better what's going on.	0
+So when do you guys leave?	0
+Um we're here through Sunday, so	0
+Oh	0
+Oh, O_K, so -	0
+All through Friday would be fine.	0
+O_K, So -	0
+so anyt- we'll find a time later in the week to uh get together and talk about   your  understanding of what SmartKom plans are.	1
+Mm-hmm.	0
+and how we can change them.	0
+Yes. Sure.	0
+Uh,	0
+Should we already set a date for that?	0
+Might be beneficial while we're all here.	0
+O_K?	0
+um	0
+What - what does  not  work for me is Thursday afternoon. I can do  earlier  in the day on Thursday,	0
+or  um   most  of the time on Friday, not all.	0
+Wha- but, Johno,	0
+Thursday morning sounds fine?	0
+Mm-hmm.	0
+what are your constraints?	0
+um	0
+Thursday afternoon doesn't work for me, but -	0
+Neither does Thursday morning, no?	0
+Uh	0
+Thursday morning should be fine.	0
+Eleven?	0
+O_K.	0
+Eleven on Thursday?	0
+@@	0
+I was just thinking I w- I will  have  leavened by	0
+Right.	0
+eleven.	0
+Right. This is then out of deference to our	0
+non-morning people.	0
+Mm-hmm.	0
+O_K.	0
+So at eleven?	0
+Hmm.	0
+Thursday around eleven?	0
+Yeah.	0
+O_K.	0
+And actually we can invite um	0
+Andreas as well.	0
+Uh he will be in Washington, though.	0
+Oh that's true. He's off - off on his trip already.	0
+but um	0
+David is here and	0
+Thilo.	0
+he's actually	0
+knows everything about the SmartKom recognizer.	0
+O_K well yeah maybe we'll see if David could make it. That would be good.	0
+O_K so	0
+facing to - to what we've sort of been doing here	0
+um	0
+well for one thing we're also using this room to collect data.	1
+Yeah obviously.	0
+um	0
+um	0
+Not this type of data, no not meeting data but sort of - sort ah our version of a wizard experiment such	1
+Oh, O_K.	0
+not like the ones in Munich but pretty close to it.	0
+Mm-hmm.	0
+The major difference to the Munich ones is that	0
+we do it via the telephone	0
+O_K.	0
+even though all the recording is done here	0
+and so it's a - sort of a computer call system	1
+Mm-hmm.	0
+that gives you tourist information tells you how to get places.	1
+And it breaks halfway through the experiment and a human operator comes on.	0
+and	0
+part of that is sort of trying to find out whether people change their linguistic verbal behavior when first thinking they speak to a machine and then to a human.	0
+Yeah.	0
+and	0
+we're setting it up so that we can - we hope to implant certain intentions in people.	0
+For example	0
+um	0
+we have first looked at a simple sentence that	0
+"How do I get to the Powder-Tower?"	0
+O_K so you have the - castle of Heidelberg	0
+O_K.	0
+and there is a tower and it's called Powder-Tower.	0
+Oh, O_K. Yeah.	0
+and um	0
+so	0
+What will you parse out of that sentence?	0
+Probably something that we specified in M_-three-L_, that is	0
+Mmm.	0
+@@	0
+"action go to whatever domain, object whatever Powder-Tower".	0
+And maybe some model will tell us, some G_P_S module, in the mobile scenario where the person is at the moment.	0
+And um we've sort of gone through that once before in the Deep Mail project and we noticed that	0
+first of all what are - I should've	0
+brought some slides, but	0
+what our - So here's the tower.	0
+Think of this as a two-dimensional representation of the tower.	0
+And our system led people	0
+here, to a point where they were facing a wall	0
+in front of the tower. There is no entrance there, but it just happens to be the closest	0
+point of the road network to the geometric center	0
+Because that's how the algorithm works.	0
+So we took out that part of the road network as a hack and then it found actually the way to the entrance.	0
+which was now the closest point of the road network to	0
+Yeah.	0
+O_K, geometric center.	0
+But what we actually observed in Heidelberg is that most people when they want to go there they actually don't want to enter, because it's not really interesting.	0
+They wanna go	0
+to a completely different point where they can look at it and take a picture.	0
+Oh, O_K. Yeah.	0
+Hmm.	0
+And so what uh uh a s- you s-	0
+let's say a simple parse from a s- from an utterance	1
+won't really give us is what the person actually wants.	1
+Does he wanna go there to see it? Does he wanna go there now? Later?	0
+How does the person wanna go there? Is that	0
+person  more   likely to want to walk there?	0
+Walk a scenic route?	0
+and so forth. There are all kinds of decisions that we have identified	0
+in terms of getting to places and in terms of finding information about things.	0
+And we are constructing - and then we've identified more or less the	0
+extra-linguistic parameters that may f-	0
+play a role. Information related to the user and information related to the situation.	0
+And we also want to look closely on the linguistic information that	0
+what we can get from the utterance. That's part of why we implant	0
+these intentions in the data collection to see whether people actually	0
+phrase things differently whether	0
+they want to enter in order to buy something or whether they just wanna go there to look at it.	0
+And um	1
+so the idea is to construct uh um	1
+suitable interfaces and a belief-net for	1
+a module that actually tries to guess what	1
+the underlying intention  was.	1
+And then	0
+enrich or augment the M_-three-L_ structures with what it thought	0
+what more it sort of	0
+got out of that utterance.	0
+So if it can make a good suggestion, "Hey!"	0
+you know, "that person doesn't wanna enter. That person just wants to take a picture,"	0
+cuz he just bought film, or "that person wants to enter because he discussed the admission fee before".	0
+Or "that person wants to enter because he wants to buy something and that you usually do inside of buildings" and so forth.	1
+These ah these types of uh	1
+these bits of additional information are going to be	1
+embedded into the M_-three-L_ structure	1
+in an - sort of subfield that we have reserved.	1
+And if the action planner does something with it, great. If not	0
+you know, then that's also something	0
+um that we can't really -	0
+at least we   want to  offer  the	0
+extra information. We don't really -	0
+Mm-hmm.	0
+Hmm.	0
+um	0
+we're not too worried. I mean -	0
+t- s- Ultimately if you have - if you can  offer  that information, somebody's gonna s-	0
+do  something with it sooner or later. That's sort of part of our belief.	0
+What was he saying?	0
+Um, for example,	0
+right now I know the G_I_S from email	0
+is not able to calculate these viewpoints.	0
+So that's a functionality that doesn't exist yet	0
+Mm-hmm.	0
+to do that dynamically, but if we can offer it	0
+that distinction, maybe somebody will go ahead and implement it.	0
+Surely nobody's gonna go ahead and implement it if it's never gonna be used, so.	0
+What have I forgotten about? Oh yeah, how we do it, yeah that's the	0
+Well th- uh-	0
+No no. It's a good time to  pause.  I s- I	0
+see  questions on peoples' faces, so why don't - let's - let's -	0
+Oh-	0
+Let's hear -	0
+Well the obvious one would be if - if you envision this as a module within SmartKom, where exactly would that	0
+Sit?	0
+um - so far I've thought of it as sort of adding it onto the modeler knowledge module. So this is one that already adds	1
+That's the d-	0
+Hmm.	0
+O_K, yeah.	0
+Makes perfect sense.	0
+Yes.	0
+Hmm, ah.	0
+additional information to the	0
+but it could sit anywhere in the attention-recognition	0
+I mean basically this is what attention-recognition literally sort of	0
+can -	0
+Well it's supposed to do.	0
+Mmm.	0
+Yeah	0
+That's what it  should  do. Right, yeah.	0
+Yeah. Yeah.	0
+Huh.	0
+Yeah.	0
+Well f- from my understanding of what the people at Phillips	0
+were originally trying to do	0
+doesn't seem to quite fit into SmartKom currently	0
+so what they're really doing	0
+right now is only selecting among	0
+the alternatives, the hypotheses that they're given	0
+enriched by the domain knowledge and	0
+Yeah.	0
+the um discourse modeler and so on.	0
+Yeah.	0
+So if - if this is additional information that	0
+could be merged in by them.	0
+And then it would be available to action planning and - and others.	0
+Yeah.	0
+the -	0
+let's - let's	0
+That w- O_K that was  one  question. Is there other - other things that	0
+cuz  we wanna	0
+not	0
+Pa- pass over any  you know, questions or concerns that you have.	0
+Well there're - there're	0
+Mmm.	0
+two levels of - of giving an answer and I guess on both levels I don't have any	0
+um	0
+Mmm.	0
+further questions.	0
+uh the - the two levels will be	0
+Mmm.	0
+as far as I'm concerned as	0
+uh standing here for the generation module and the other is - is	0
+my understanding of what SmartKom uh is supposed to be	0
+Right.	0
+and I - I think that fits in perfectly	0
+So - well, let me -	0
+Hmm.	0
+Let me s-  expand on that a  little  bit from the point of view of the generation.	0
+Yeah.	0
+So the idea is that we've actually got this all laid out an- and we could show it to you ig- um	0
+Robert didn't  bring  it today but there's a -	0
+a	0
+belief-net	0
+which is -	0
+There's a  first   cut  at a belief-net that - that doesn't - it - isn't fully uh instantiated, and in particular some of the - the combination rules and ways of getting the - the conditional probabilities aren't there.	0
+But we believe that we have laid out the fundamental decisions in this little space and the things that influence them.	0
+Mm-hmm.	0
+So  one  of the decisions is what we call this A_V_E thing.	1
+Do you want to	1
+um access, view or enter	0
+a thing.	0
+Hmm.	0
+So that's a- a discrete decision. There are only three possibilities and the uh - what one would like is for this uh, knowledge modeling module to	1
+Mm-hmm.	0
+add	0
+which of those it  is  and give it to the planner.	0
+Mm-hmm.	0
+But,	1
+uh th- the current design suggests that	1
+if	1
+it seems to be an important	1
+decision	0
+and if the belief-net is  equivocal	1
+so that it doesn't say that one of these is much more probable than the other, then an option is to go back and ask	1
+Mm-hmm.	0
+for the information you want.	1
+Alright? Now there are two ways one can go - a- imagine  doing  that.	0
+For the  debugging  we'll probably just have a - a drop-down menu and the - while you're debugging you will just - O_K.	0
+But for a full  system,  then one might very  well  formulate a  query,	0
+give it to the dialogue planner and say this, you know	0
+Mm-hmm.	0
+ar- are you know you - are you planning to  enter?	0
+Or whatever it -	0
+whatever that might be.	0
+So that's - under  that  model  then,	0
+There would be a - uh - um a  loop  in which this thing would formulate a query, presumably give it to you.	0
+Yes.	0
+That would get expressed and then hopefully	0
+you know, you'd get an answer  back.	0
+Yep.	0
+And that would of course - the answer would have to be parsed.	0
+Mmm.	0
+right and -	0
+Yep.	0
+O_K so,  th-  that	0
+Yes.	0
+uh, We probably  won't  do this early on,	1
+because the current focus is more on the decision making and stuff like that.	1
+Yep.	0
+But	1
+While we're on the subject I just wanted to give you a sort of head's up	1
+Mm-hmm.	0
+that	1
+it could be that	1
+some months from now we said "O_K we're now ready to	1
+try to  close  that  loop "	1
+Mm-hmm.	0
+Hmm.	0
+in terms of querying about some of these decisions.	1
+Yep.	0
+So -	1
+my suggestion then is that you um	1
+look into the currently ongoing discussion about how the	1
+action plans are supposed to look like.	1
+And they're currently um	1
+Agreeing or - or in the process of agreeing on an	1
+X_M_L_ification of	1
+um something like a	1
+state-transition network	1
+of how dialogues would proceed.	1
+and -	0
+The - these um transition networks	0
+uh will be what the action  planner	0
+interprets in a sense.	0
+Hmm. D- did you know this Robert?	0
+uh Michael is doing that, right?	0
+Well uh Marcus  Lerkult  is actually implementing that	0
+stuff and Marcus and Michael together are	0
+um	0
+leading the discussion there, yeah.	0
+O_K.	0
+So we ha- we  have  to get in on that.	1
+Mm-hmm.	0
+Yep.	0
+because um	0
+Mmm.	0
+Definitely.	0
+partly  those are  like  X_schemas.	0
+the transition diagrams.	0
+Hmm.	0
+And it may be that - that	0
+um we should early on make sure that they	0
+have the flexibility that we need.	0
+Hmm.	0
+But they uh	0
+Have I understood this right? They - they govern more or less	0
+the - the dialogue behavior or the action -	0
+Mm-hmm.	0
+It's not really what you do with the content of the dialogue but it's	0
+So, I mean there is this - this - this nice interf- i-	0
+uh, No, it's - it's also a  quantrant  uh uh -	0
+Is it -	0
+So there's ac- so there - th- the word "action", O_K, is - is what's ambiguous here.	0
+I think.	0
+Hmm.	0
+Yes.	0
+So, um	0
+one  thing	0
+is there's an actual  planner  that tells the person in the tourist domain now,	0
+per- tells the person how to  go,  "First go  here,  first go  there	0
+O_K.	0
+Mm-hmm.	0
+uh, you know, take a  bus ", whatever it is.	0
+So that's that form	0
+of planning, and action, and a route planner and	0
+G_I_S, all sort of stuff.	0
+uh	0
+But I think that	0
+isn't  what you mean.	0
+No. No, in SmartKom terminology that's um	0
+called a function that's modeled	0
+by a function modeler.	0
+And it's th- that's completely um	0
+encapsulated from th- the dialogue system.	0
+That's simply a functionality that you give	0
+data as in a query and then you get	0
+back from that	0
+mmm, a functioning model	0
+um which might be a planner or a V_C_R or whatever.	0
+um some result and that's then - then used.	0
+Well, O_K, so that's what I  thought.	1
+So action he- action here means dia- uh speech ac- uh you know	1
+Yeah, yeah.	0
+Mmm.	0
+Yeah, in that - in that sense yes, dialogue act, yeah.	0
+dialogue  act. Yeah.	1
+Um, I think tha- I think it's not going to -	0
+I think that's not going to be	0
+good enough. I-	0
+I don- what uh - what I meant by that.	0
+So I think the idea of having a, you know, transition diagram for the grammar of conversations is a good idea.	0
+Mm-hmm.	0
+O_K? And I think that we  do  hav- definitely have to get in on it and find out -  O_K .	0
+But I think that	0
+um	0
+when - so, when you get to the  tourist  domain	1
+Mm-hmm.	0
+it's not just an  information  retrieval system.	1
+Right? So this i- this is where	0
+Clearly. Yes.	0
+I think this - people are gonna have to think this through a bit more carefully.	1
+Mm-hmm.	0
+So, if it's  only  like in - in the - in the film and T_ V  thing,	0
+O_K, you can do this. And you just get information and give it to people.	0
+But what happens when you actually get them  moving  and so forth and so on	0
+Yep.	0
+Uh, y- y- your -	0
+I d- I think the notion of this as a self contained	0
+uh module	0
+you know th- the functional module that - that	1
+interacts with - with where the tourism g- stuff is going	1
+Yep.	0
+probably is too restrictive.	1
+Now I dunno how much people	0
+have  thought  ahead	0
+to the tourist domain in this	0
+Probably not enough, I mean	0
+an - another uh more basic point there is	0
+that the current um tasks and therefore th- the concepts in this ac-	0
+what's called the action plan and what's really the dialogue manager.	1
+Yeah	0
+um	1
+is based on slots that have to be filled and the um	1
+Mm-hmm.	0
+kind of values in these slots would be fixed things like the	0
+a time or a movie title or something like	1
+Right.	0
+this whereas in the a	1
+um tourist domain it might be an entire route.	1
+Set-based, or even	0
+Indeed.	0
+very complex structured information in these slots and	1
+Right.	0
+I'm not sure if - if complex slots of that type are really	1
+um being taken into consideration.	1
+O_K. Could you - could you put a message into the right place to see if we can at least  ask  that question?	0
+So that's - that's really something we	0
+Yep.	0
+Mm-hmm.	0
+rea-	0
+I mean nothing's being	0
+yep	0
+completely settled there so this is really an ongoing discussion and that's	0
+Mm-hmm yeah	0
+and um it might actually O_K ah also -	0
+because um again in- in Deep Map we have faced and implemented those problems once already maybe we can even shuffle some know how from there to	0
+Mm-hmm.	0
+Yes.	0
+to Markus and Michael.	0
+Mmm.	0
+Yep.	0
+And um	0
+mmm	0
+You don't know - O_K th-	0
+I'll - I'll talk to Michael	0
+it's what I do anyway. Who - How far is the uh	0
+the - the M_-three-L_ specification	0
+for - for the la- natural language input gone on the - the uh I haven't seen anything	0
+for the uh tourist path domain.	0
+Yeah, it's - it's not defined  yet .	0
+And um you are probably also involved in that, right?	0
+Um -	0
+Yeah.	0
+uh together with the usual gang, um Petra and Jan	0
+Mmm.	0
+Yeah, there's a meeting	0
+next	0
+next week I think	0
+O_K because	0
+That's -	0
+Those are the - I think the - the true key issues is how does the whatever comes out of the language input pipeline look like and then what the action planner does with it -	1
+and how that is uh specified.	1
+I didn't think of the internal working of the uh	0
+the action planner and the language - uh the function model as sort of relevant.	0
+Because what - what they take is sort of this - this fixed representation of a - of an intention.	0
+And that can be as detailed or as crude as you want it to be.	0
+Mm-hmm.	0
+But um the internal workings of	0
+of the - whether you know there're dialogue -	0
+action planners that work with belief-nets that are action planners that work with you know state  automata .	0
+So that shouldn't really matter too much.	0
+I mean it does matter because it does have to keep track of you - we are on part six of r- a route that consists of eight steps and so forth	0
+Yeah, th- there - there - I think there are a  lot  of reasons why it matters.	0
+Right.	0
+O_K, so that	0
+uh, for  example,  the i- it's the action planner	0
+is going to  take  some  spec  and s-	0
+make some  suggestions  about what the user should do.	0
+What the user  says	0
+after  that	0
+is going to be very much caught up with what	0
+Yes.	0
+the action planner  told  it. If the -	0
+If the  parser  and the	0
+language  end	0
+doesn't   know  what the person's been  told	0
+O_K th- it's you're making your life  much  more difficult than it has to be.	0
+Yeah.	0
+Right? So if someone says the best t-	0
+to uh  go  there is by  taxi,	0
+let's say. Now the  planner  comes out and says you  wanna  get there  fast,  take a  taxi.	0
+O_K. And	0
+the language end doesn't  know  that.	0
+O_K, there's  all  sorts of  dialogues  that won't make any sense which would be	0
+hmm	0
+just  fine.	0
+Yeah.	0
+uh	0
+That would b- but that - I think that - that uh point has been realized and	0
+it's - it's not really um	0
+been defined yet but there's gonna be some kind of feedback and input from	0
+uh the action planner	0
+into all the analysis modules,	0
+telling them what to expect and what the current state of the discourse is.	0
+Mmm.	0
+Beyond what's currently being implemented which is just word lists.	0
+@@	0
+Yeah, but this is not the st- this is  not  just the  state  of the  discourse.	0
+Mm-hmm.	0
+Of - of special interest.	0
+This is actually the  state  of the  plan.	0
+That's why	0
+Mm-hmm.	0
+Yes, Yes, Mm-hmm yeah.	0
+O_K so it -	0
+z- and s-	0
+uh, It's  great  if people are already	0
+taking  that into  account.	0
+But	0
+One would have t- have to see - see the details.	0
+The specifics aren't really there yet. Yes.	0
+Yeah.	0
+So, there's work to do there.	0
+So anyway, Robert, that's why I was thinking that	0
+Mm-hmm.	0
+um	0
+I think you're gonna need -	0
+We talked about this several times that - that - the -	1
+the  input  end is gonna need a  fair  amount of  feedback	1
+hmm	0
+from the  planning  end.	1
+In - in one of these things which are - are much more continuous than the - just the dialogue over  movies  and stuff.	0
+Yeah.	0
+Mmm.	0
+And even on - on a more basic level the - the action planner	0
+actually needs to be able to have	0
+um	0
+an expressive power that can deal with these structures.	0
+Hmm?	0
+And not just um say	0
+um - um the dialogue um will consist of ten possible states	0
+and th- these states really are fixed in - in a certain sense.	0
+Would there be any chance	1
+You have to -	0
+of getting the  terminology   changed so that the dialogue planner was called a "dialogue planner"?	1
+Because there's this  other  thing-	0
+That'd be nice.	0
+The o- There's this other thing in - in the  tourist  domain which is gonna be	0
+a  route  planner or - It's  really  gonna be an action planner.	0
+And	0
+It oughta be called a - a dialogue manager.	1
+i- it -	0
+cuz that's what everybody else calls it. Yeah.	0
+I would  think,  yeah.	0
+Mmm.	0
+Huh?	0
+So, s-	0
+So what would happen if we sent a note saying	0
+"Gee we've talked about this and couldn't we change this	0
+uh th- the whole word?" I have no idea how complicated these things are.	0
+Probably close to impossible.	0
+Depends on who you talk to how. We'll see.	0
+I'll go check, cause I completely agree.	0
+Mmm.	0
+Yeah, and I think this is just	0
+for historical reasons within	0
+uh, the preparation phase of the project and not because somebody actually believes it ought to be action planner.	0
+So if there is resistance	0
+against changing it, that's just because "Oh, We don't want to change things."	0
+That - that not deep reason	0
+O_K, anyway.	0
+I- if - if that c- in- persists then we're gonna need  another  term.	1
+for the	1
+thing that actually	1
+does the planning of the uh	1
+routes and whatever we are doing for the tourist.	1
+That's external services.	0
+Yeah, but that's not g- eh tha-	0
+That ha- has  all  the wrong connotations.	0
+it's - it sounds like it's you know	0
+stand alone. It doesn't interact, it doesn't	0
+That's why I'm saying. I think you can't - it's fine for looking up when T- you know when the show's on T_V. You go to th-	0
+but I - I - I - I	0
+think it's really - really wrong headed for	0
+something that you - that	0
+has a lot of state, it's gonna interact co- in a complicated way with the uh understanding parts.	0
+Yeah.	0
+Yeah I think just the - the spatial planner and the route planner	1
+I showed you once the interac- action between them among them in the deep map system so -	1
+Right.	0
+a printout of the communication between those two fills up	1
+I don't know how many pages and that's just part of how do I get to one place. It's really insane. and uh	1
+Hmm	0
+but um so this is um definitely a good point to get uh	0
+Michael into the discussion.	0
+Or to enter his discussion, actually.	0
+That's the way around.	0
+Yeah, Marcus.	0
+Markus	0
+Is he new in the - in the?	0
+Wh- where's?	0
+Yeah, he's - he started um	0
+Yeah.	0
+I think January.	0
+And he's	1
+gonna be responsible for the implementation of this action planner.	1
+Dialogue manager.	0
+Is he gonna continue with the old - uh - thing?	0
+No, no he's	1
+completely gonna rewrite everything.	1
+O_K.	0
+In Java.	1
+O_K so that's interesting.	0
+Yes I was just - that's my next question whether we're - we're gonna stick to Prolog or not.	1
+hmm	0
+No. No, that's gonna be phased out.	1
+Yeah .	0
+O_K	0
+But I do think the - the function modeling concept has a certain -	0
+makes sense in a - in a certain light because	0
+Yeah.	0
+the action planner should not be - or the dialogue manager in that case should not um w- have to worry about whether it's interfacing with um something that does route planning in this way or that way huh, it j-	0
+Mm-hmm.	0
+I- I totally agree. Sure.	0
+Yeah I - I agree. There is - there's a logic to dialogue which - which is - is separable.	0
+I-	0
+Yeah.	0
+and it -	0
+cant -	0
+sort of formulate its-	0
+what it wants in a - in a rather a- abstract uh way, you know f-	0
+Mm-hmm.	0
+"Find me a good route for this."	0
+It doesn't really have to worry ab- how route planner A_ or how route planner B_ actually wants it.	0
+So this is -	0
+seemed like a good idea.	0
+In the beginning.	0
+It's tricky.	0
+It's tricky because one could  well  imagine - I think it will turn  out  to be the case that	0
+uh, this thing we're talking about, th- the extended n-	0
+uh	0
+knowledge modeler	0
+will fill in some parameters about what the person wants. One could  well  imagine	0
+that the next thing that's trying to fill out the  detailed	0
+uh,  route  planning, let's say, will  also  have questions that it would  like  to ask the user.	0
+You could  well  imagine you get to a point where it's got a - a  choice  to make and it just doesn't  know  something.	0
+And so y- you would like it t-  also  be able to	0
+Mm-hmm.	0
+uh formulate	0
+a query.	0
+And to run that back through	0
+uh. the  dialogue  manager and to the  output  module and back  around.	0
+hmm	0
+And a- I- a- a  good  design would - would	0
+a lot of, yeah	0
+allow that to  happen.	0
+Mmm.	0
+If - if you know if - if you can't  make  it happen then you - you do your  best.	0
+Yeah	0
+but that doesn't necessarily contradict um	0
+an architecture where there really is a pers- a def- well-defined interface.	0
+I totally agree. But - but what it nee- but th- what the point is the- in that case the  dialogue  manager is sort of  event  driven.	1
+and - and	0
+So the  dialogue  manager may think it's in a  dialogue   state	1
+of  one  sort, and this -	1
+Mm-hmm.	0
+one of these  planning  modules comes along and says "hey,  right  now we need	1
+to ask a question".	1
+So that  forces  the dialogue manager to change state.	1
+Yes	0
+O_K.	0
+It could be y-	0
+Sure, ye- yeah I - I think that's - that's the um	0
+Yeah, yeah it - it -	0
+concept that people have, yep.	0
+O_K.	0
+And - and the - the underlying idea of course is	1
+that there is something like	1
+kernel modules with kernel functionality that you can plug uh	1
+certain applications like tourist information or	1
+um the home scenario with uh controlling a V_C_R and so on.	1
+And then extend it to	0
+an arbitrary number of applications eventually.	0
+So - wouldn't	1
+That's an additional reason to have this	1
+well-defined interface and keep these things like uh tourist information external.	1
+Oh, yeah, yeah.	0
+And then call it external services.	0
+Hmm.	0
+But of course the - the more complex - yep.	0
+Yeah, there is another philosophical issue that I think you know you can -	0
+evade but, at- at least it makes sense to me that sooner or later uh -	0
+a service is gonna come and describe itself to you.	0
+and that's sort of what Srini is working on in - in - in the DAML	0
+Yeah.	0
+uh project where	0
+um you - you find a G_I_S about -	0
+that gives you information on Berkeley, and it's - it's gonna	0
+be there and tell you what it can do and how it wants to do things.	0
+and so you can actually interface to such a system without	0
+ever having met it before and	0
+Hmm.	0
+the function modeler and a self-description of the	0
+um external service haggle it out and	0
+you can use the same language core, understanding core	0
+to interface with planner-A_, planner-B_, planner-C_ and so forth.	0
+Hmm.	0
+Mmm.	0
+Which is, you know, uh - uh - utopian -	0
+completely utopian at the moment, but	0
+slowly, you know, getting into the realm of the uh	0
+contingent.	0
+Hmm.	0
+But we are facing of course much more	0
+um	0
+realistic problems.	0
+And language input for example, is of course	1
+uh crucial you know also when you do the sort of deep understanding analysis that we envision.	1
+um	0
+Then of course, the uh	0
+um, you know	0
+what is it - poverty of the stimulus, yet the m-	0
+uh the less we get of that the better.	0
+and um so we - we're thinking, for example	0
+how much syntactic analysis actually happens already in the parser.	0
+Hmm.	0
+and whether one could interface to that	0
+potentially	0
+Yeah, are there currently is uh no syntactic analysis	0
+but in the next release there will be some.	0
+Hmm.	0
+How's it -	0
+unless and it's um	0
+uh you can  access   this	0
+S- so uh y- we - we looked at the e- current pattern matching thing.	0
+Hmm.	0
+And as you say it's just a surface  pattern  matcher.	0
+Uh, So what are - what are the  plans  roughly?	1
+um	1
+it's to - to integrate and syntactic analysis.	1
+and um	0
+add some more features like segmentation.	0
+So then an utter- more than one utterance is -	0
+There um there's  often	0
+uh pause between it	0
+and a segmentation occurs.	0
+So, the um -	0
+um	0
+So the idea is to uh - have a pa- y- y- a particular - Do you have a particular parser in mind? Is it	0
+yeah	0
+uh - partic- d- I mean have you thought through - ?	0
+Is it an H_P_S_G parser? Is it a whatever?	0
+No - no it's - uh I think it's	0
+it's totally complicated for	0
+O_K.	0
+it's just one - one person and so	0
+I have to keep the -	0
+Oh,  you  have to do it.  You  have to do it, yeah.	0
+Yeah, ah and so	0
+things must be simpler	0
+I  see, so	0
+but uh,  Miel  syntactic analysis with um finite state transducers.	0
+But the people at D_F_-	0
+Yeah.	0
+People at D_F_K_I have  written  a fair number of  parsers.	1
+Other - you know,  people  over the  years.	0
+uh have  written  various parsers at D_F_K_I. None of them	1
+are suitable?	1
+I - I - I d- I'm asking. I don't know.	0
+Yeah, uh the problem is	1
+th- that it has to be very fast because um if you want to for more than one path anywhere	1
+O_K.	0
+what's in the latches from the	0
+Mm-hmm.	0
+speech recognizer so it's	0
+speed is crucial. uh	0
+And they are not fast enough.	0
+Mm-hmm.	0
+And they also have to be very robust.	1
+cuz of um speech recognition errors and	1
+O_K.	0
+So, um - So there was a  chunk  parser	0
+@@	0
+in  Verbmobil,	0
+that was  one  of the	0
+uh	0
+branchers.  You know they - d- th- I c- There were these various	0
+uh,  competing	0
+uh  syntax  modules.	0
+And I know  one  of them was a  chunk  parser and I  don't  remember	0
+who   did  that.	0
+I think it's	0
+A- Alan?	0
+that	0
+might, at Tuebingen I thought.	0
+Yeah I d- I don't remember.	0
+was - Do you know something about that?	0
+Tuebingen was at least involved in putting the chunks together I -	0
+In Tub- at -	0
+can't quite recall	0
+whether they actually produced the chunks in the first place.	0
+oh	0
+Uh. I see. Yeah, that's right.	0
+Or wh-	0
+There w- That's right. They w- They had - There were - This was done with a  two  phase thing, where	0
+Oh from - from Stuttgart, yeah, also	0
+the chunk parser itself was pretty  stupid  and then there was a	0
+kind of  trying  to  fit  them  together  that	0
+Right.	0
+h- used more  context.  Right?	0
+Yeah	0
+Well you s-	0
+and - and especially you	0
+did some - some	0
+um, l-	0
+um	0
+was a learning-based approach which	0
+learned from a big corpus of - of trees.	0
+Right. Right.	0
+Mm-hmm.	0
+And yes the - it - the chunk parser was a finite-state machine that	0
+um Mark  Light  originally w-	0
+worked on in - while he was in	0
+Tuebingen and then somebody else in Tuebingen	0
+picked that up. So it was done in Tuebingen, yeah.	0
+Definitely.	0
+But is that the  kind  of thing y- It  sounds  like	0
+the  kind  of thing that you were thinking of.	0
+yeah. yeah that's	0
+Yeah I guess it's similar.	0
+In this direction, yes	0
+What?	0
+Yeah, it's in - in this direction.	0
+Hmm .	0
+The -	0
+From Michael Strube, I've heard very good stuff about the chunk parser that is done by FORWISS,	0
+uh,	0
+which is in	0
+embassy doing the parsing.	0
+Mm-hmm.	0
+So this is sort of - came as a surprise to  me  that	0
+you know, embassy s-	0
+is featuring a nice parser	0
+but it's  what I hear.	0
+One could also look at that and see	0
+Mm-hmm, yeah, it would be very interesting, Mm-hmm.	0
+whether there is some synergy	0
+Mmm, yeah.	0
+possible.	0
+And  they're  doing	0
+chunk parsing and it's uh -	0
+I - I can give you the names of the people who do it there.	0
+But um.	0
+Then there is of course  more  ways of parsing things.	0
+Of  course.  But - But	1
+uh given th- the	1
+constraints,  that you want it to be  small  and  fast  and  so   forth,	1
+my guess is you're	1
+probably  into some kind of  chunk  parsing.	1
+And	0
+uh	0
+I'm  not  a big believer in this um	0
+statistical	0
+you know, cleaning up	0
+uh	0
+It -	0
+That seems to me kind of a last resort if uh	0
+you can't	0
+do it any other way.	0
+uh	0
+but I dunno. It may - i- i- may be that's what you guys finally decide do.	0
+Hmm.	0
+Uh.	0
+And have you looked - uh just - again for context -	0
+Mm-hmm.	0
+There is this - this one that they did at S_R_I some years ago -  Fastus ?	0
+a -	0
+um yeah, I've - I've looked at it but -	0
+but it's no - not much uh information available.	0
+ah!	0
+I found, but it's also	0
+finite-state transducers, I thought.	0
+It  is.  Yeah. I mean - it's - it was pretty ambitious.	0
+and	0
+And of course it was  English  oriented, um	0
+Yeah, and - and	0
+w-	0
+Purely   finite-state transducers are not so good for German since there's um	0
+Right.	0
+Yeah, I guess that's the  point  is - is all the  morphology  and stuff.	0
+The  word   order is - is uh not fixed	0
+And English is all th- all  word  order.	0
+And it makes a lot more  sense.  And -	0
+Yeah.	0
+e- Yeah, O_K. Good point. So in - in -	0
+in German you've got	0
+uh  most  of this done with	0
+Mm-hmm. Also it's uh - it's um -	0
+Yes, uh the	0
+um choice between uh this processing and that processing and my template matcher.	0
+Right.	0
+Right.	0
+So what about	0
+@@	0
+Um	0
+Did y- like Morfix?	0
+a- a- e- y- you've got stemmers? Or is that something	0
+that -	0
+Um, yeah but it's all in the - in the lexicon.	0
+But did you have that?	0
+So it's -	0
+Yeah th- the information is available.	0
+O_K. I see. So, but -	0
+So y-  you  just	0
+So -	0
+connect to the lexicon	0
+Yeah	0
+and uh at least for German you have all - all of the - uh	0
+the  stemming  information.	0
+Yeah, we can, oh yeah.	0
+We have knowledge bases from - from Verbmobil	1
+Yep.	0
+system we can use and so.	1
+Right.	0
+But it - it - it doesn't look like i- you're using it.	0
+I didn't n-  see  it being used in the current	0
+template  uh parser.	0
+I - I didn't see any	0
+Uh - of course  we  l- actually only looked at the  English.	0
+It -	0
+Did we look at the German?	0
+um	0
+I don't remember. So w- wha-	0
+Yeah, but - but it's used for - for stem forms.	0
+i-	0
+n- Well I think - I think there's some misunderstanding here it's -	0
+@@	0
+Oh, O_K.	0
+Morphix is not used on-line.	0
+s- so the lexicon might be derived	0
+What?	0
+by Morphix but	1
+Right.	0
+What - what's happening on-line is	1
+just um	1
+um a -	1
+a retrieval from the lexicon which would	1
+Right.	0
+give all the stemming information so it would be a full foreign lexicon.	1
+Hmm.	0
+And that's what you have.	0
+Yeah	0
+Yep.	0
+O_K.	0
+What - uh I didn't reme-	0
+We threw out all the forms.	0
+Huh?	0
+We threw out all the forms because, you know, English, well -	0
+Oh O_K, so it - yeah, s- s- I thought I'd -	0
+Mm-hmm.	0
+So in German then you actually do case matching and things like in the - in the pattern matcher or not?	0
+um Not yet but it's planned to do that.	0
+O_K.	0
+Cuz I r- I didn't reme- I didn't  think  I saw it.	0
+Have we looked at the German?	0
+Yeah	0
+Oh, I haven- yeah that's - getting it from the lexicon is just  fine.	0
+Yeah, yeah, yeah.  No problem with  that.	0
+Sure, right.	0
+Oh yes .	0
+um	0
+Yeah and  here's  the case where the English and the German might  really  be	1
+significantly   different.	1
+In terms of	1
+if you're trying to build some fast parser	1
+and so forth and -	1
+You really might wanna do it in a  significantly  different way.	0
+I  don't  know.	0
+So you've - you guys have  looked  at this?	0
+also?  in terms of	0
+You know, w- if you're doing this for English as well as German	0
+Um	0
+Do you think now that it would be this - doing it similarly?	0
+um	0
+Yeah, it's um	0
+I think it's um yes,	0
+it's - it's um possible to -	0
+to do list processing.	0
+and	0
+Maybe this is um	0
+more adequate for English and in German um	0
+Set.	0
+set processing is used.	0
+Maybe yeah.	0
+Some extensions uh have to be made.	1
+For - for a English version	1
+Mmm.	0
+O_K.	0
+Interesting.	0
+Not easy.	0
+Well there's m- I'm sure there's gonna be more discussion on that after your talk.	0
+Mm-hmm, yeah.	0
+Right.	0
+We're just gonna foreshadow what we saw that	0
+Right.	0
+and um	0
+Now  actually,	0
+um	0
+Are you guys free at five?	0
+Or - Do you have to go somewhere at five o'clock tonight?	0
+W- in ten minutes?	0
+Ah - mmm.	0
+No.	0
+uh - uh - I think we're expect -	0
+Oder   there was an - talk?  uh	0
+Yeah, there - there's the um	0
+practice talk.	0
+Great.  So you're  going  to that.	0
+@@	0
+Yeah, that - that's what we were planning to do. Yeah.	0
+That's good, because  that  will	0
+Mmm, yeah.	0
+uh  tell  you	0
+a  fair  amount about	0
+The	0
+form  of semantic  construction  grammar that we're using. so -	0
+Mm-hmm.	0
+Ah.	0
+So I th- I think that probably as  good  an introduction	0
+as you'll  get.	0
+Uh to	0
+the form of - of	0
+uh -  conceptual  grammar that - that w- we	0
+have in  mind  for this.	0
+Mmm, ah.	0
+It  won't	0
+talk  particularly	0
+about how  that  relates to what	0
+uh  Robert  was saying at the  beginning.  But let me give you a  very  short  version  of this.	0
+So we  talked  about the  fact  that	1
+There're  going  to  be	1
+a  certain  number of  decisions	1
+That you  want  the  knowledge  modeler to  make,	1
+that will be then fed to the  function  module,	1
+that does	1
+uh,  route  planning.	1
+It's called the "route planner" or something.	0
+Mm-hmm.	0
+So there are these decisions. And then	1
+one   half  of this we talked about at  little  bit is	1
+how  if  you  had  the right  information,  if you knew something about what was  said  and about th- the something about	1
+was the  agent	1
+a  tourist  or a  native  or a  business  person or uh  young  or  old,  whatever.	1
+That information, and also about the	1
+Uh, what we're calling "the entity",	1
+Is it a  castle,  is it a  bank?  Is it a s-  town  square, is it a  statue?	0
+Whatever.	0
+So all that kind of information could be combined	1
+into  decision  networks and give you  decisions.	1
+But the  other   half  of the problem is	1
+How would you  get  that kind of information from the  parsed   input?	1
+So, um	0
+So what you  might  try to do is just build more  templates,  saying uh we're trying to build a templ- you know build a template that w- uh  somehow  would capture the fact that	0
+Mmm.	0
+he wants to take a  picture.	0
+O_K? And - and we could - you could  do  this.	0
+And it's a  small  enough domain that probably you, you know -	0
+Mmm.	0
+O_K . You could do this. But	0
+uh from  our  point of view this is also a research project	0
+and there are a couple of people  not  here	0
+for various reasons who are doing  doctoral  dissertations on this,	1
+Mm-hmm.	0
+and	1
+the idea that we're  really  after	1
+is a  very   deep  semantics based on  cognitive   linguistics  and the notion that there are a  relatively   small  number	1
+of  primitive  conceptual  schemas  that  characterize  a lot of  activity.	1
+So a  typical  one in this  formulation  is a  container.	0
+So this is a  static  thing.	0
+And the notion is that	0
+all sorts of  physical  situations	0
+are characterized in terms of  containers.  Going in and out	0
+the portals and con- O_K.	0
+Mmm.	0
+But also, importantly for Lakoff and these guys is all sorts of  metaphorical	0
+things are  also   characterized   this way. You get in  trouble  and you know et cetera  and so - s-	0
+Mmm.	0
+So, what we're  really  trying to do	1
+is to map from the  discourse	1
+to the  conceptual  semantics level.	1
+And from  there	0
+to the appropriate  decisions.	0
+So  another  one of these primitive,	0
+Mm-hmm.	0
+what are called " image  schemas",	0
+is uh  goal  seeking.	0
+So this a notion of a source,	0
+Mm-hmm.	0
+path, goal,	0
+trajector, possibly obstacles.	0
+And the idea is this is another conceptual  primitive.	0
+And that all  sorts  of things,  particularly  in the tourist domain, can be represented in  terms  of uh source, path and goal. So the idea would be could we build an  analyzer  that would take an  utterance	1
+Mm-hmm.	0
+and say "Aha!	0
+th-  this  utterance is talking about an attempt to reach a goal.	0
+The goal is this, the pers- the, uh traveler is that, uh the sor- w- where we are at now is is this, they've mentioned possible obstacles, et cetera."	0
+So th- the - and this is an - again attempt to get	0
+very wide coverage. So if you can  do  this,	1
+then the notion would be that across a  very   large  range of  domains,  you could use this deep  conceptual  basis as the  interface.	1
+Mm-hmm.	0
+Mm-hmm.	0
+And then,	0
+uh	0
+The  processing  of that,  both  on the  input  end,	0
+recognizing  that  certain   words  in a language  talk   about   containers  or  goals,  et  cetera,	0
+and on the  output  end, given this kind of  information,  you can then	0
+uh  make   decisions  about what  actions  to  take.	0
+Provides,  they  claim,	0
+a very powerful,  general	0
+notion of  deep  semantics.	0
+So  that's  what we're  really  doing.	0
+Mm-hmm.	0
+And  Nancy  is going to - Her  talk	0
+is going to be  not  about using this in applications, but about modeling how children might  learn	0
+Mm-hmm.	0
+this kind of uh deep semantic grammar.	0
+Yep, yep.	0
+And how do you envision	0
+um the - the um	0
+this deep semantic to be	0
+worked with. Would it be highly ambiguous	0
+if and then there would be another module that takes that	0
+um highly underspecified	0
+deep semantic construction and map it onto the current context to find out what the person	0
+really was talking about	0
+in that context. or -	0
+Well that's - that's - that's where the belief-net comes  in.  So th- the idea is,	0
+or a -	0
+let's take this business about going to the  Powder-Tower.	0
+Mm-hmm.	0
+So  part  of what you'll get out of this will be the fact tha- w- if it works right, O_K, that this is an agent that wants to go to this place and that's their goal  and  there will be additional  situational  information.	0
+Mm-hmm.	0
+Oh, O_K.	0
+Uh, O_K, part of it comes from the  ontology.  The tower is  this  kind of object. Part of it comes from the  user  model.	0
+th-	0
+Mm-hmm.	0
+Yeah, O_K.	0
+Mm-hmm.	0
+And the idea of the  belief-net  is it combines	1
+the	1
+information  from the  dialogue  which comes across in this  general  way,	1
+Mm-hmm.	0
+you know this is a - this is a goal seeking behavior,	0
+along with  specific  information from the  ontology  about the kinds of objects involved and about the  situation	0
+Yeah	0
+O_K, Yeah, yep yep yep yep	0
+about "Is it raining?" I don't know. Whatever it is. And so that's the belief-net that we've laid  out.	0
+Mm-hmm.	0
+And so th- the  coupling  to the situation comes in this model from, at th- at th- at the belief-net, combining evidence from the dialogue with the ontology with the situation.	1
+Yeah.	0
+Hmm.	0
+But Nancy isn't gonna talk about  that,  just about the	0
+Yeah, oh yeah, I see, yeah yeah, really.	0
+um	0
+First steps.	0
+Right. The - the  construction  grammar.	0
+And she's gonna start	0
+in a minute.	0
+In a minute.	0
+Ah, O_K.	0
+O_K.	0
+Is it i- in, then,  your   place, in five -	0
+five-A_?	0
+Alright.	0
