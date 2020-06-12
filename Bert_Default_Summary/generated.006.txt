@@ -1,0 +1,95 @@
+Well eh you know that I work - I begin to work with a new feature to detect voice-unvoice.
+eh bus- base system
+No,  satly  the mes- the Mel Cepstrum, the new base system - the new base system.
+one that only have t- three output,  voice, unvoice, and silence, and
+And I put together the fifteen features and the three M_L_P output.
+the - with the new code.
+um yeah one of the differences between voiced, unvoiced and silence is energy.
+as additional inputs, rather than having a separate -
+uh about the difference between the - the uh um
+I - H- Hynek last week say that if I have time I can to begin to - to study
+carefully what they are doing with the program  @@  and I begin to - to work also in that.
+I think that Stephane will arrive today or tomorrow.
+uh to get a  feel  for things, a range of things, not just  speech.  Uh.
+But I think for - for sort of dyed-in-the-wool speech people, um I think that I_C_S_L_P and Eurospeech are much more targeted.
+progress, I - I've been getting a - getting my committee members for the quals.
+And um so far I have Morgan and Hynek,
+Then uh I talked a little bit about
+um continuing with these dynamic ev- um acoustic events,
+thinking about a way to test the completeness of
+a - a set of um dynamic uh events.
+do they provide sufficient coverage
+for the phones that we're trying to recognize
+a chosen set of features, or acoustic events,
+um system to do  phone  recognition on  TIMIT.
+So i- i- the idea is if we get good phone recognition results,
+using um these set of acoustic events,
+um that - that says that these acoustic events are g- sufficient to cover
+"are we on the right track with - with the -
+uh working on my
+Actually, let me - Hold that thought. Let me back up while we're still on it. The - the other thing I was suggesting, though, is that given that you're talking about binary features,
+and uh count co-occurrences and get probabilities for a discrete H_M_M
+it seems to me that the only reasonable starting point is
+uh to automatically translate the uh
+current TIMIT markings into the markings you want.
+Yeah and a short - short amount of time, just to - again, just to see if that information is sufficient
+to uh determine the phones.
+to get an idea about
+and hopefully there should be some point at which
+Uh, you  could,  but the thing is, what he's talking about here is a uh - a translation to a per-frame feature vector,
+um compare it with the results by um King and Taylor who did
+a set of phonological features
+Um. So, support vector machines are - are good with dealing with a less amount of data
+and um so if you - if you give it less data it still does a reasonable job
+the - the  simple  idea behind a support vector machine is
+uh a  condensed  nearest-neighbor, where you would - you would - you would pick out uh some representative examples which would uh be sufficient to represent - to - to correctly classify everything that came in.
+if you have uh only a modest amount of data, you have trouble
+Uh s- So Barry, if you just have zero and ones, how are you doing the speech recognition?
+Oh! Uh I haven't gone through the entire table,  yet. Yeah, yesterday I brought Chuck
+come up with the phones? or to come up with these vectors to see how closely they match the phones, or - ?
+Right, um to come up with a mapping from um M_F_C_C's or s- some feature set,
+it's - it's basically - it's - it's really simple, basically a detection
+of phonological features.
+a mapping from M_F_C_C's to
+then uh map that to phones. So I'm - I'm sort of reproducing phase one of their stuff.
+changes to the data in comparing P_L_P and mel cepstrum
+of a few percent
+uh for P_L_P with the normalization done as it had been done for the mel cepstrum.
+What I've been  doing  is
+well it seems like there's a bug,
+So what I was working on is um
+there was just some kind of obvious bug in the way that I was computing the features.
+uh difference in word error rate
+I was looking - I've been studying and going through the logs for the system that um Andreas created.
+S_R_ I  system looks like it  works  is that it reads the wavefiles  directly,
+whereas with  our  features, he's actually storing
+a front-end parameter file. Which talks about the kind of
+I've been working with um
+on his project and then I've been trying to track down this bug
+So one thing that I  did  notice, yesterday I was studying the um -
+the uh RASTA code
+you know, "only process from
+uh the  filters.
+certain settings of the parameters when you compute P_L_P which would basically cause it to output
+So that, in effect, what I could  do  is use our code but produce mel  cepstrum
+from people at  some  point,
+uh they got some better results with the triangular filters rather than the trapezoidal. So that  is  an option
+One  of the things that I  did   notice  was that the um
+you know, look at a few points to see where you are starting to get significant  search  errors.
+Well, what I was gonna do is I was gonna take
+if - if that looks  promising  you could, you know, r- uh run
+the overall test set
+And the uh the - the run time of the recognizer on the P_L_P features is longer
+item that once we - once we had it going we would use for a number of the front-end things also.
+tried this mean subtraction method. Um. Due to Avendano,
+the error rate went from something like eighty
+to um four percent.
+actually a little  side  point is I  think  that's the first results that we have
+on - on the far field  data
+the S_R_I system on this
+is  at some point just to take -
+but there's  still  this kind of  ratio.  It's something like  five  percent error
+with the - the distant mike, and one percent with the  close  mike.
+uh a lot of Switchboard, Call Home,
+it's reasonable to expect it would be helpful if we used it with the S_R_I system and
+word error rate on digits is - uh digit strings is not

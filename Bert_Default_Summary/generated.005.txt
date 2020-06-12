@@ -1,0 +1,120 @@
+digits and  possibly  stuff on - on, uh, forced alignment, which  Jane  said that Liz and Andreas had in- information on, but they didn't, so.
+Um. O_K, so there's digits, alignments, and, um,
+is, uh, to dis- s- s- see if there's anything anybody wants to discuss about the Saturday meeting.
+Digits and alignments.
+The lapel mike is a very high-quality microphone.
+They're - they're  intended  to be omni-directional.
+uh, I mean,  there  the point of interest to the group was  primarily  that, um,
+than the - than the S_R_ I.  And the interesting thing is that even though,
+that was the phone-loop adaptation. And then there was a very small -
+you know, adaptation to  the recognition hypotheses.
+one - so there were a number of things we noted from this. One is, yeah, the S_R_I system is a lot better than the H_T_K -
+you know, speech bandwidth  and,
+It's wide-band, yeah. It's - in - in fact, we looked it up and it was actually twenty kilohertz sampling.
+one issue with - with that is that
+And is there - is there enough data or a comparable - comparable amount of data to - to what we have in our recordings here?
+and - and how many speakers per utterance.
+If you have only one utterance per speaker you might actually screw up on estimating the -
+Right. But it's not the amount of speakers, it's the num- it's the amount of data  per  speaker.
+extracts the speaker I_D from the waveform names.
+And there's a - there's a script - and that is actually  all  in one script. So there's this one script that parses waveform names
+and extracts things like the, um, speaker,
+we might have to modify that script to recognize the, um, speakers,
+I might have to do that anyway to - to do - because we may have to do an extract to get the  amount of data per speaker about right.
+by, um,  not starting with the Switchboard models but by taking the Switchboard models and doing supervised adaptation
+on a small amount of digit data collected
+uh, problem, I mean. So,
+Eh. Yeah, I think these mikes are not working as well as I would like.
+Uh, adaptation, non-adaptation,
+could  actually t- t-  try  at least  looking  at, uh, some of the - the large vocabulary speech from a far microphone, at least from the  good  one.
+thirty-five, forty percent or something,
+Yeah, sure. Get all these insertions. But I'm saying if you do the same kind of limited thing
+Where you know who the speaker is and there's no overlap?
+were synchronized. Or you can do a forced alignment on the  close-talking
+elsewhere  in the segment other people are  overlapping  and just front-end  those  pieces.
+the links,
+uh, that we're testing on
+In the H_L_ T  paper we took  segments that are channel -  time-aligned,  which is now h- being changed in the  transcription  process, which is good,
+any  words in that segment and called that "non-overlap".
+Tho- good - the good numbers. The bad numbers were from  the segments where there was overlap.
+the same conditions that were used to create  those,  and in those same segments just use one of the P_Z_Ms.
+So that was - Yeah. So that was i- interesting result. So like I said, the front-end guys are
+we - so we have a - we have a - a system that works pretty well but it's not, you know, the system that
+Well, I think what we wanna do is we want to - eh, and we've talked about this in other  contexts - we want to
+uh, also Dave is - is thinking about
+So - so the key  thing that's missing here is basically the
+does a lot of things on the fly but it unfortunately  is not  designed and, um -  like the, uh, ICSI system is, where you can feed it
+from a pipeline of - of the command. So,
+you know, if you want to use some new features, you have to dump them into
+O_K. So the s- the - the next thing we had on the agenda was something about alignments?
+looking  at them first and then realizing the kinds of errors  that were occurring and
+needing constraints on word locations. And so we tried both of these  st-  things. We tried saying -
+just from looking at the data, that when people talk  their words are usually chunked together.
+Um, but it turned out for - for - to get accurate  alignments  it was really important to open up the pruning
+Um  because otherwise it would sort of do greedy alignment, um, in regions where there was no real speech  yet  from the foreground speaker.
+um, you know, from the  data  or from maybe some hand-corrected alignments from transcribers that
+words that  do  occur just by themselves  a- alone, like backchannels or something that we  did  allow to have background speech around it -
+those  would be able to do that, but the rest would be constrained.
+Um, so, and then there's a background speech model.
+um, the word "mixed  signal" and someone didn't understand,
+at least the foreground speaker. But, I guess Andreas tried adapting both the foreground and a background generic speaker, and that's actually a little bit
+of a f- funky model. Like, it gives you some weird alignments, just because often the  background  speakers match better to the foreground than the foreground speaker. So there's some things  there,  especially when you get lots of the same words,
+And you - and what we wanted to try with - you know, once we have this paper written and have a little more time,
+uh, t- cloning that reject model and then one copy of it would be adapted to the foreground speaker
+to capture the rejects in the  foreground,  like fragments and stuff, and the other copy would be adapted to the background speaker.
+Right now the words like  partial words are  reject models
+and you normally allow those to match to any word. But then the background speech was also a reject model,
+and so this constraint of not allowing rejects in between - you know, it needs to differentiate between the two. So just sort of working through a bunch of
+multiple times, and as soon as it occurs usually the aligner will try to align it to the first person who says it.
+we would need a hand-marked, um,  word-level alignments or at least sort of the boundaries of the speech betw- you know, between the speakers.
+segments from just one  person  you don't see a lot of words, but  altogether  you'll see a lot of words up there. And so the  reject  is also mapping and  pauses  -
+So I looked at  them   all in Waves and just lined up all the alignments,
+you know, have  time  to l-  to look at all of them and it would be  really  useful to have, like, a - a transcriber who could use Waves,
+So. One of these transcripts was gone over by a transcriber and then I hand-marked it myself so that we  do  have, uh, the beginning and ending of individual  utterances.
+just in terms of the  tool,  talking about this. I guess  Sue  had had some  reactions. You know, interface-wise if you're looking at speech, you wanna be able to know really where the words are. And so,
+I think Transcriber, uh, outputs C_T_M.
+trying out  the alignment
+Um. But, yeah, we should try to  use  what you have. I  did  re-run recognition on your new version of
+not - not a  lot,  but several times I actually   moved  an utterance from  Adam's channel to  Dan's  or from  Dan's  to  Adam's.  So there was some speaker identif-
+uh, less optimal way than - than the ones that came after it, and I was able to - you know, an- and  this  meant that there were some speaker identif- identifications which were
+I got Adam's voice confused with Dan's and vice versa - not for  long  utterances, but jus- just a couple of places,
+and embedde- embedded in overlaps. The  other  thing that was w- interesting to me was
+uh, with respect to also a  strategy  which might help with the alignments  potentially,  but that's -
+When I was looking at these backchannels,
+when you're somehow involved in the  topic,  and the most natural way is for you to have  initiated  the topic by asking a question.
+But there are  fewer  - I think there are fewer "uh-huhs". I mean, just from - We were looking at word frequency lists to try to find the cases that we would  allow  to have the  reject  words in  between  in doing the  alignment.
+Yeah. I mean, y- y- you folks have probably  already told me, but were - were you intending to do a Eurospeech submission, or - ?
+Yeah. Well, we're still, like, writing the scripts
+And so all our timing was off. I've given up on trying to do digits. I just don't think that what I have so far makes a Eurospeech paper.
+So we're taking these, uh, alignments from the individual channels.
+from each alignment we're producing, uh, one of these C_T_M files, which essentially has - it's just a linear sequence of words with the begin times for every word and the duration.
+O_K. Then we have a messy alignment process where we actually insert into the sequence of words
+um, propagated the punctuation from the original transcriber - so whether it was, like, question mark or period or,
+spurt overlaps - sp- overlaps, or -
+And then we merge all the alignments from the various channels and we sort them by time.
+then there's a process where you now determine the spurts.
+Um, and inside the words or between the words you now have begin and end  tags for overlaps. So,
+you - you basically have everything sort of lined up and in a form where you can look at the individual speakers and how their speech relates to the other speakers' speech.
+even if you weren't studying overlaps, if you wanna get a transcription for the far-field mikes, how are you gonna  know
+which words from which speakers occurred at which times  relative  to each other? You  have  to be able to  get a transcript like - like this anyway, just for doing far-field recognition. So,
+Y- yes. I mean, s- when I came up with the original data - suggested data format based on the transcription graph, there's capability of doing
+at the very last stage we throw away the actual  time  information. All we care about is whether -
+In psy- ps- psycho-linguistics you have these experiments where people have perceptual biases a- as to what they hear, that - that -
+actually not even  possible,  I think, for any  person  to listen to a mixed signal, even equalize, and make sure that they have all the words in the right order.
+So, I guess, we'll  try  to write this Eurospeech paper. I mean, we will  write  it. Whether they accept it  late or not, I don't know.
+Um, and the  good  thing is that we have - It's sort of a beginning of what Don can use to link the prosodic
+features from each file to each other.
+the only people who are allowed to test on that are people who - who made it above a certain threshold in the first round,
+I mean, for the evaluations, yes, we'll run a version that hasn't been touched.
+um, using the Aurora system, and we do some  improvements  and bring it from three to  two,
+do those same improvements bring, uh, th- you know, the S_R_I system from one point three to - you know, to
+that's going in. You know, that's - that's pretty solid, on the segmentation  stuff.
+Actually this - this, um - So, there's another paper. It's a Eurospeech paper but not related to meetings.
+uh, a colleague at S_R_I developed a improved version of M_M_I_E training.
+And got some very impressive results, um,
+eight percent or from
+there's gonna be, uh, Jeff, Katrin, Mari and two students. So there's five  from there.
+th- the  other  good thing about the alignments is that, um, it's not always the  machine's  fault if it doesn't work.  So, you can actually find, um,
+And I'm  sorry  by the result of overlapping, because, eh,  I haven't good results, eh, yet but, eh,
+But, eh, I - I will try to recommend, eh, at, eh,
+Is, eh, a - another acoustic event.

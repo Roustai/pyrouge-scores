@@ -1,0 +1,32 @@
+how things are construed, and then the idea is to use ontology, situation, user, and
+discourse model to instantiate elements in the classes of the probabilistic relational model  to do some inferences in terms of what is being construed as  what
+But, with a focus on  @@
+And  any  type of comment whether it's a spelling or a syntax or
+That's when I'm meeting with Wolfgang Wahlster to
+Then I'm  also  going to present a little talk at E_M_L,
+Then what have we done so far? We had our little bit of, um,
+That's the -  not  the construction parser. That's the, uh, tablet-based parser, and
+That's done. You have to change those strategies, right? That's, ten words?
+And, um, and Fey is doing the synthesis stuff as we speak.
+talk a bit about the embodied and simulation approach favored here and as a prelude,
+So X_schemas, then, I would like to do - talk about the construction aspect and then at the end about our Bayes-net.
+"Future activities" something.
+and that we're planning to  do  this, um,
+anal- there - the - there - we've got various i- generations of slides that show language analysis, and matching to the underlying image schemas, and,
+Kind of a different level of analysis.
+Including cr- cross-bridges, and
+constructions,  that, uh, Nancy and Keith and friends are doing,
+to  metaphorical  cases and  metonymic  cases and all those things, requires this additional mechanism,
+at - at the base level, it should com- uh, interact with all the metonymies and metaphors so that all of the projections of it also should work.
+uh, compose with all of the constructions.
+these  base  constructs and then a general mechanism for coercing them.
+idea of a source, path, and goal
+you know as - as a obstacle, or as some physical object. So there are  multiple   construals.
+So it's a lot of pragmatics, there, that
+of construal. So let's first do
+So we're thinking about, um,
+you know, despite the fact that this is  not  the most met- metaphorical domain, because people interacting with  H_T_I  systems try to be straightforward and less lyrical,
+um, key in terms of finding out  any  of these things, so,
+We, uh - I - with a - I looked - with a student I looked at the entire database that we have on Heidelberg for cases of metonymy.
+have then ask the system about the objects and engage in conversation on the history and the art and the architecture and so forth.
+O_K. So why don't we plan to give you feedback electronically.
