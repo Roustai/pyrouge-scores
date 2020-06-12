@@ -1,0 +1,106 @@
+O_K. So uh, he's not here, so you get to -
+Yeah, I will try to explain the thing that I did this - this week - during this week.
+Well eh you know that I work - I begin to work with a new feature to detect voice-unvoice.
+What I trying two M_L_P
+to - to the - with this new feature and the fifteen feature
+uh from the
+eh bus- base system
+V_A_D or something like that. And I'm trying two M_L_P, one
+one that only have t- three output,  voice, unvoice, and silence, and
+other one that have fifty-six output.
+The probabilities  of the allophone . And
+I tried to do some experiment of recognition with that
+and only have result with - with the M_L_P with the three output.
+And, well, the result are
+li- a little bit better, but more or less similar.
+This is the work that I did during this date and also mmm
+I - H- Hynek last week say that if I have time I can to begin to - to study
+well  seriously the France Telecom proposal to look at the code and something like that
+carefully what they are doing with the program  @@  and I begin to - to work also in that.
+But the first thing that I don't understand is that they
+are using R_-
+the uh log energy that this quite - I don't know why they have some
+constant in the expression of the lower energy. I don't know what that means.
+O_K, and wh- when did Stephane take off? He took off -
+I think that Stephane will arrive today or tomorrow.
+Yeah.
+So he's - he's going to I_CASSP which is good. I - I don't know if there are many people
+Wanna talk a little bit about what we were talking about this morning? Just briefly, or
+Tsk.
+Then uh I talked a little bit about
+um continuing with these dynamic ev- um acoustic events,
+and um
+we're - we're - we're
+thinking about a way to test the completeness of
+a - a set of um dynamic uh events.
+Uh, completeness in the - in the sense that
+um if we - if we pick these X_ number of acoustic events,
+do they provide sufficient coverage
+for the phones that we're trying to recognize
+or - or the f- the words that we're gonna try to recognize later on.
+And so Morgan and I were uh discussing
+um s- uh s-
+a form of a cheating experiment
+where we get -
+um we have uh
+a chosen set of features, or acoustic events,
+and we train up a hybrid
+um system to do  phone  recognition on  TIMIT.
+So um have you had a chance to do
+this um thing we talked about yet with the uh -
+Uh. No actually I was going a different - That's a good question, too, but I was gonna ask about the -
+the um
+changes to the data in comparing P_L_P and mel cepstrum
+for the S_R_I
+system.
+So we talked on the phone about this, that -
+that there was still a difference of a -
+of a few percent
+and
+you told me that there was a difference in how the normalization was done.
+And I was asking if you were going to do -
+redo it
+uh for P_L_P with the normalization done as it had been done for the mel cepstrum.
+right, no I haven't had a chance to do that.
+What I've been  doing  is
+uh
+trying to figure out - it just seems to me like there's a um -
+well it seems like there's a bug,
+because
+the difference
+in performance is -
+it's not gigantic
+but it's big enough that it - it seems wrong.
+Yeah, I  agree,  but I thought that the normalization difference was one of the
+possibilities, right?
+Yeah, I guess I don't
+think that the normalization difference is gonna account for everything.
+So what I was working on is um
+just going through and checking the headers of the wavefiles, to see if
+That's -
+as far as  my  stuff goes,
+yeah, well I
+tried this mean subtraction method. Um. Due to Avendano,
+I'm taking s- um
+six seconds of speech, um
+I'm using two second
+F_F_T analysis frames,
+stepped by a half second
+And I calculate um
+the spectral mean,
+of the log magnitude spectrum  over that N_.
+I use that to normalize the s- the current center frame
+by mean subtraction.
+And um
+the - I tried that with H_D_K, the Aurora setup of H_D_K training on clean T_I-digits,
+and um
+it - it helped um in a phony reverberation case
+um
+where I just used the simulated impulse response
+um
+the error rate went from something like eighty
+it was from something like eighteen percent
+to um four percent.
+And on meeting rec- recorder far mike digits, mike -
+on channel F_, it went from um
+forty-one percent error to eight percent error.
