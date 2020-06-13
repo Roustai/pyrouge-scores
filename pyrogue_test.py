@@ -1,8 +1,8 @@
 from pyrouge import Rouge155
 
 r = Rouge155()
-r.system_dir = '/home/alex/rouge_test/Test'
-r.model_dir = '/home/alex/place_holder/'
+r.system_dir = '/home/alex/rouge_test/Bert_Default_Summary'
+r.model_dir = '/home/alex/rouge_test/gold_standard_update'
 system_output_dir = '/home/alex/rouge_test/system_output'
 model_output_dir = '/home/alex/rouge_test/model_output'
 
@@ -14,6 +14,6 @@ r.model_filename_pattern = 'gold_standard.[A-Z].#ID#.txt'
 
 
 
-output = r.convert_and_evaluate(rouge_args= '-e /home/alex/pyrouge/rouge/tools/ROUGE-1.5.5/data -a -x -s -m -2 4 -u')
+output = r.convert_and_evaluate(rouge_args= '-e /home/alex/pyrouge/rouge/tools/ROUGE-1.5.5/data -c 95 -n 2 -a -s -m -2 4 -u')
 print(output)
 #output_dict = r.output_to_dict(output)
