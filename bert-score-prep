@@ -1,0 +1,18 @@
+import glob
+
+GS_files = glob.glob('/home/alex/rouge_test/BERT_default/logit/*')
+GS_files = sorted(GS_files)
+print(GS_files)
+file_name = 'generated-logit'
+new_text = []
+for items in GS_files:
+    with open(items, 'r') as t:
+        text = t.read()
+    #file_name = items.replace('/home/alex/rouge_test/GS-update/', '')
+
+    text = text.replace('\n', ' ')
+    new_text.append(text)
+
+with open(file_name, 'w') as w:
+    for text in new_text:
+        w.write(text + '\n')
